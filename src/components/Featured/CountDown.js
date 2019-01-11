@@ -44,7 +44,7 @@ export default class CountDown extends Component {
           <div className="countdown_bottom">
             <div className="countdown_item">
               <div className="countdown_time">{this.state.days}</div>
-              <div className="countdown_tag">Hr</div>
+              <div className="countdown_tag">Day</div>
             </div>
             <div className="countdown_item">
               <div className="countdown_time">{this.state.hours}</div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./resources/styles.css";
 import Header from "./components/header-footer/Header";
 import Featured from "./components/Featured/index";
+import StageInfo from "./components/StageInfo/index";
 import Footer from "./components/header-footer/Footer";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
       >
         <Header />
         <Featured />
+        <StageInfo />
         body <Footer />{" "}
       </div>
     );
