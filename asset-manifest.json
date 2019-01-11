@@ -1,16 +1,16 @@
 {
-  "main.css": "/reactappthestage/static/css/main.a3dce981.chunk.css",
-  "main.js": "/reactappthestage/static/js/main.a4f4a4fb.chunk.js",
-  "main.js.map": "/reactappthestage/static/js/main.a4f4a4fb.chunk.js.map",
-  "static/js/1.66d36951.chunk.js": "/reactappthestage/static/js/1.66d36951.chunk.js",
-  "static/js/1.66d36951.chunk.js.map": "/reactappthestage/static/js/1.66d36951.chunk.js.map",
+  "main.css": "/reactappthestage/static/css/main.9eff08d5.chunk.css",
+  "main.js": "/reactappthestage/static/js/main.627cf395.chunk.js",
+  "main.js.map": "/reactappthestage/static/js/main.627cf395.chunk.js.map",
+  "static/js/1.3fae1955.chunk.js": "/reactappthestage/static/js/1.3fae1955.chunk.js",
+  "static/js/1.3fae1955.chunk.js.map": "/reactappthestage/static/js/1.3fae1955.chunk.js.map",
   "runtime~main.js": "/reactappthestage/static/js/runtime~main.b5129a64.js",
   "runtime~main.js.map": "/reactappthestage/static/js/runtime~main.b5129a64.js.map",
-  "static/css/main.a3dce981.chunk.css.map": "/reactappthestage/static/css/main.a3dce981.chunk.css.map",
+  "static/css/main.9eff08d5.chunk.css.map": "/reactappthestage/static/css/main.9eff08d5.chunk.css.map",
   "static/media/slide_1.jpg": "/reactappthestage/static/media/slide_1.8cb19df8.jpg",
   "static/media/slide_3.jpg": "/reactappthestage/static/media/slide_3.f7a166a8.jpg",
   "static/media/slide_2.jpg": "/reactappthestage/static/media/slide_2.ef26ba13.jpg",
   "index.html": "/reactappthestage/index.html",
-  "precache-manifest.3bd894b0a2e096c04ebed8396b7f3e35.js": "/reactappthestage/precache-manifest.3bd894b0a2e096c04ebed8396b7f3e35.js",
+  "precache-manifest.84ef24e103850abed09591d488440e08.js": "/reactappthestage/precache-manifest.84ef24e103850abed09591d488440e08.js",
   "service-worker.js": "/reactappthestage/service-worker.js"
 }
