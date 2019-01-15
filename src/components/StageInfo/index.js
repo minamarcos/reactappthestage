@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Zoom from "react-reveal/Zoom";
 import icon_calendar from "../../resources/images/icons/calendar.png";
 import icon_location from "../../resources/images/icons/location.png";
-import slide_1 from "../../resources/images/slide_1.jpg";
+
 const StageInfo = () => {
   return (
     <div className="bck_black">
