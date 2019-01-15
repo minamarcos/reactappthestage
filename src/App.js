@@ -32,7 +32,6 @@ class App extends Component {
           <Location />
         </Element>
         <Footer />
-        ww
       </div>
     );
   }
