@@ -21,7 +21,7 @@ class Discounts extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container discountsSection">
         <div className="row">
           <Fade onReveal={() => this.loadingdiscount()}>
             <div className="discount_porcentage text-center col-md-4 col-xs-12">

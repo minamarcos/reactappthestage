@@ -121,7 +121,6 @@ footer .footer_copyright {
   position: absolute;
   bottom: 0px;
   color: #ffffff;
-  bottom: 3rem;
 }
 
 .countdown_wrapper .countdown_top {
@@ -250,7 +249,9 @@ footer .footer_copyright {
   border-bottom: 1px solid #dddddd;
   padding: 30px 0px;
 }
-
+.discountsSection {
+  padding: 2rem 0px;
+}
 .discount_porcentage span:nth-child(1) {
   color: #ff4800;
   font-size: 125px;
@@ -301,7 +302,7 @@ footer .footer_copyright {
 ======================*/
 
 .pricing_section {
-  padding: 70px 0px;
+  padding: 2rem 0px;
 }
 
 .pricing_section h2 {
