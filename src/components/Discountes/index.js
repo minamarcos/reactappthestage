@@ -21,18 +21,25 @@ class Discounts extends Component {
   }
   render() {
     return (
-      <div className="center_wrapper">
-        <div className="discount_wrapper">
+      <div className="container">
+        <div className="row">
           <Fade onReveal={() => this.loadingdiscount()}>
-            <div className="discount_porcentage">
+            <div className="discount_porcentage text-center col-md-4 col-xs-12">
               <span>{this.state.discountStart}%</span>
               <span>OFF</span>
             </div>
           </Fade>
+
           <Slide right>
-            <div className="discount_description">
+            <div className="discount_description col-md-8 col-xs-12">
               <h4>Book your spot befor 20th Oct</h4>
-              <p>asdfa asd sad sad asd asad asd sadas </p>
+              <p>
+                This present moment is perfect simply due to the fact you are
+                experiencing it. This is your world. There are no mistakes. You
+                can fix anything that happens. Trees live in your fan brush, but
+                you have to scare them out. In your world you have total and
+                absolute power.
+              </p>
               <MyBtn
                 link="http://google.com"
                 text="Book your Seat"

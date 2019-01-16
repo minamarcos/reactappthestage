@@ -16,39 +16,26 @@ const Carrousel = () => {
     <div
       className="carrousel_wrapper "
       style={{
-        height: `${window.innerHeight}px`,
         overflow: "hidden"
       }}
     >
-      <Slider {...settings}>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              background: `url(${slide_1})`,
-              height: `${window.innerHeight}px`
-            }}
-          />
+      <div
+        id="carouselExampleSlidesOnly"
+        className="carousel slide"
+        data-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src={slide_1} alt="First slide" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={slide_2} alt="Second slide" />
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src={slide_3} alt="Third slide" />
+          </div>
         </div>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              background: `url(${slide_2})`,
-              height: `${window.innerHeight}px`
-            }}
-          />
-        </div>
-        <div>
-          <div
-            className="carrousel_image"
-            style={{
-              background: `url(${slide_3})`,
-              height: `${window.innerHeight}px`
-            }}
-          />
-        </div>
-      </Slider>
+      </div>
     </div>
   );
 };

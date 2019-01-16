@@ -5,11 +5,11 @@ import icon_location from "../../resources/images/icons/location.png";
 
 const StageInfo = () => {
   return (
-    <div className="bck_black">
-      <div className="center_wrapper">
-        <div className="vn_wrapper">
+    <div className="Highlights bck_black">
+      <div className="container">
+        <div className="center_wrapper row">
           <Zoom durtion="500">
-            <div className="vn_item">
+            <div className="vn_item col-md-6 col-sm-12">
               <div className="vn_outer">
                 <div className="vn_inner">
                   <div className="vn_icon_square bck_red" />
@@ -27,7 +27,7 @@ const StageInfo = () => {
             </div>
           </Zoom>
           <Zoom durtion="500" delay="500">
-            <div className="vn_item">
+            <div className="vn_item col-md-6 col-sm-12">
               <div className="vn_outer">
                 <div className="vn_inner">
                   <div className="vn_icon_square bck_yellow" />
@@ -39,7 +39,7 @@ const StageInfo = () => {
                     }}
                   />
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc"> Tempa,Reseda, CA 91325</div>
+                  <div className="vn_desc">los angeles STAPLES Center</div>
                 </div>
               </div>
             </div>

@@ -17,7 +17,7 @@ export default class Pricing extends Component {
   showBoxes = () =>
     this.state.prices.map((box, i) => (
       <Zoom delay={this.state.delay[i]} key={i}>
-        <div className="pricing_item">
+        <div className="pricing_item col-md-4 col-sm-12">
           <div className="pricing_inner_wrapper">
             <div className="pricing_title">
               <span>${this.state.prices[i]}</span>
@@ -43,7 +43,11 @@ export default class Pricing extends Component {
       <div className="bck_black">
         <div className="center_wrapper pricing_section">
           <h2>Pricing</h2>
-          <div className="pricing_wrapper">{this.showBoxes()}</div>
+          <div className="pricing_wrapper">
+            <div className="container">
+              <div className="row">{this.showBoxes()} </div>
+            </div>
+          </div>
         </div>
       </div>
     );
