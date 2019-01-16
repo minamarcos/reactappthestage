@@ -202,13 +202,13 @@ footer .footer_copyright {
 }
 
 .vn_item .vn_icon {
-  width: 2.5rem;
+  width: 14%;
   height: 2.5rem;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   position: absolute;
   top: -2rem;
-  left: 7.5rem;
+  right: 43%;
 }
 
 .vn_item .vn_title {
