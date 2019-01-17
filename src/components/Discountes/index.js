@@ -44,7 +44,7 @@ class Discounts extends Component {
                 link="http://google.com"
                 text="Book your Seat"
                 color="#ffffff"
-                bck="#ffa800"
+                bck="#c3073f"
               />
             </div>
           </Slide>

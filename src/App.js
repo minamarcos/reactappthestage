@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./resources/styles.css";
+import "./resources/css/styles.css";
+import "./resources/css/styles.scss";
 import { Element } from "react-scroll";
 import Header from "./components/header-footer/Header";
 import Featured from "./components/Featured/index";

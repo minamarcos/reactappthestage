@@ -1,0 +1,17 @@
+@import "config";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  .artist_name:hover,
+  .artist_name:hover .wrapper {
+    color: #c3073f;
+    border: 2px solid #c3073f;
+    @include easOut();
+  }
+}

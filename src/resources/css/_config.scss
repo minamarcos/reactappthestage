@@ -1,0 +1,34 @@
+$primary-color: yellow;
+$secondary-color: #c3073f;
+$show-home-image: true;
+
+$background-opacity: 0.8;
+
+@mixin easOut {
+  transition: all 0.5s ease;
+}
+
+// media query mixin
+@mixin mediaSM {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMD {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLG {
+  @media screen and (max-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXL {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

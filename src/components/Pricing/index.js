@@ -5,7 +5,7 @@ import Zoom from "react-reveal/Zoom";
 export default class Pricing extends Component {
   state = {
     prices: [100, 150, 250],
-    postions: ["Balcony", "Midel Row", "Front"],
+    postions: ["Balcony", "Medel Row", "Front"],
     desc: [
       "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
       "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
@@ -30,7 +30,7 @@ export default class Pricing extends Component {
               <MyBtn
                 text="Book It"
                 link={this.state.link[i]}
-                bck="#ffa800"
+                bck="#c3073f"
                 color="#ffffff"
               />
             </div>
